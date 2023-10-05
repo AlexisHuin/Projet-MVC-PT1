@@ -1,0 +1,18 @@
+{
+  "name": "alexis/cda",
+  "authors": [
+    {
+      "name": "Huin"
+    }
+  ],
+  "optimize-autoloader": true,
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "Controller/",
+      "Model\\": "Model/"
+    }
+  },
+  "require": {
+    "nikic/fast-route": "^1.3"
+  }
+}
